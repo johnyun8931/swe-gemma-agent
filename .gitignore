@@ -1,0 +1,17 @@
+# Large competition data + wheelhouse (keep local only, do not push)
+gemma-4-developer-agent/
+gemma-4-developer-agent-wheelhouse/
+
+# Local scratch / run outputs
+working/
+models/
+_extracted/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
