@@ -1,11 +1,16 @@
 # Large competition data + wheelhouse (keep local only, do not push)
 gemma-4-developer-agent/
 gemma-4-developer-agent-wheelhouse/
+/gemma-4-developer-agent.zip
+/gemma-4-developer-agent-wheelhouse.zip
 
 # Local scratch / run outputs
 working/
 models/
 _extracted/
+
+# Prebuilt llama.cpp binaries (re-download via README)
+llama.cpp/
 
 # Python
 __pycache__/
@@ -15,3 +20,8 @@ venv/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+# API keys and other machine-specific settings
+.env
+.env.*
+!.env.example
